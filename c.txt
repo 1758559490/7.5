@@ -1,0 +1,40 @@
+cd d:/www/
+ls
+cd mygit/
+ls
+git remote add origin https://github.com/1758559490/7.5.git
+git remote -v
+git  status
+git add a.txt
+git commit -m'add a.txt'
+git config --global user.email "175855990@qq.com"
+git config --global user.name  "1758559490"
+git push origin master
+
+
+cd ..
+ls
+cd newmygit/
+git clone https://github.com/1758559490/7.5.git
+
+
+cd d:/git/
+ls
+cd b/
+ls
+git remote add origin https://github.com/1758559490/7.5.git
+
+git  status
+git add b.txt
+git commit -m'add b.txt'
+git config --global user.email "175855990@qq.com"
+git config --global user.name  "1758559490"
+git push origin master
+
+
+cd ..
+ls
+cd newmygit/
+git clone https://github.com/1758559490/7.5.git
+
+
